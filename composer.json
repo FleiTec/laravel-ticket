@@ -1,17 +1,22 @@
 {
-    "name": "coderflex/laravel-ticket",
+    "name": "fleitec/laravel-ticket",
     "description": "Laravel Ticket System, to help you manage your tickets eaisly",
     "keywords": [
-        "Coderflex",
+        "fleitec",
         "laravel",
         "laravel-ticket"
     ],
-    "homepage": "https://github.com/coderflexx/laravel-ticket",
+    "homepage": "https://github.com/FleiTec/laravel-ticket",
     "license": "MIT",
     "authors": [
         {
             "name": "Oussama Sid",
             "email": "oussama@coderflex.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Thomas Fleißner",
+            "email": "info@fleitec.com",
             "role": "Developer"
         }
     ],
@@ -34,13 +39,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Coderflex\\LaravelTicket\\": "src",
-            "Coderflex\\LaravelTicket\\Database\\Factories\\": "database/factories"
+            "fleitec\\LaravelTicket\\": "src",
+            "fleitec\\LaravelTicket\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Coderflex\\LaravelTicket\\Tests\\": "tests"
+            "fleitec\\LaravelTicket\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -59,10 +64,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Coderflex\\LaravelTicket\\LaravelTicketServiceProvider"
+                "fleitec\\LaravelTicket\\LaravelTicketServiceProvider"
             ],
             "aliases": {
-                "LaravelTicket": "Coderflex\\LaravelTicket\\Facades\\LaravelTicket"
+                "LaravelTicket": "fleitec\\LaravelTicket\\Facades\\LaravelTicket"
             }
         }
     },
